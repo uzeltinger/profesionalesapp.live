@@ -10,7 +10,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="profesionalesapp.webview"
+    package="profesionalesapp.live"
     android:installLocation="auto">
 
     <supports-screens
@@ -45,7 +45,7 @@
 		android:hardwareAccelerated="true"
         tools:ignore="AllowBackup">
         <!--<activity
-            android:name="profesionalesapp.webview.SplashScreen"
+            android:name="profesionalesapp.live.SplashScreen"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -54,7 +54,7 @@
             </intent-filter>
         </activity>-->
         <activity
-            android:name="profesionalesapp.webview.MainActivity"
+            android:name="profesionalesapp.live.MainActivity"
 			android:label="@string/app_name"
             android:screenOrientation="portrait" > <!-- remove or alter as your apps requirement -->
             <intent-filter android:label="@string/app_name">

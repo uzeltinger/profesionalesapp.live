@@ -4,7 +4,7 @@ android {
 	compileSdkVersion 29
 	buildToolsVersion '29.0.0'
 	defaultConfig {
-		applicationId 'profesionalesapp.webview'
+		applicationId 'profesionalesapp.live'
 		minSdkVersion 21
 		targetSdkVersion 29
 		versionCode 1
